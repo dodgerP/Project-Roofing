@@ -38,3 +38,20 @@ h2{
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
+#roof-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes roof-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
