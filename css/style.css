@@ -17,3 +17,8 @@ h2{
     letter-spacing: 40px;
     color: #555;
 }
+
+#logo{
+    float: left;
+    font-size: 280%;
+}
